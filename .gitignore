@@ -1,0 +1,87 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build / production files
+# =========================
+dist/
+build/
+**/dist/
+**/build/
+
+# =========================
+# Vite
+# =========================
+.vite/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Cache / temporary files
+# =========================
+.cache/
+.temp/
+tmp/
+temp/
+
+# =========================
+# Coverage
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Python (if used later)
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# =========================
+# Database files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
